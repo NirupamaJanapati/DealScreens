@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "55692885090",
+    "firebase_url": "https://blogin-b4dac.firebaseio.com",
+    "project_id": "blogin-b4dac",
+    "storage_bucket": "blogin-b4dac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55692885090:android:02d41c0211c37ef6",
+        "android_client_info": {
+          "package_name": "com.example.pramod.deals_screens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55692885090-6rliauk61kriuuf2vj499k9i59arb4t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3z9SPhf0KYCJz8iOuisySQqB26QExX8o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

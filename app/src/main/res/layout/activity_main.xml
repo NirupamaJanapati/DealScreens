@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pramod.deals_screens.MainActivity">
+
+    <Button
+        android:id="@+id/featureddeals"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="times new roman"
+        android:text="Featured Deals"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="57dp"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/thingstodo"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="times new roman"
+        android:text="Things-To-Do"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="57dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/featureddeals"
+        android:layout_alignLeft="@+id/foodanddrink"
+        android:layout_alignStart="@+id/foodanddrink" />
+
+    <Button
+        android:id="@+id/foodanddrink"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="times new roman"
+        android:text="Food and Drink"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="57dp"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/thingstodo"
+        android:layout_alignLeft="@+id/featureddeals"
+        android:layout_alignStart="@+id/featureddeals" />
+
+    <Button
+        android:id="@+id/healthandfitness"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="times new roman"
+        android:text="Health And Fitness"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="57dp"
+        android:layout_below="@+id/thingstodo"
+        android:layout_alignLeft="@+id/thingstodo"
+        android:layout_alignStart="@+id/thingstodo"
+        android:layout_marginTop="118dp" />
+
+
+    <Button
+        android:id="@+id/beautyandspa"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="times new roman"
+        android:text="Beauty and Spa"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="57dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/healthandfitness"
+        android:layout_alignLeft="@+id/healthandfitness"
+        android:layout_alignStart="@+id/healthandfitness" />
+
+</RelativeLayout>
